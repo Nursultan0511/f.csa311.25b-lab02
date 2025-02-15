@@ -34,8 +34,8 @@ public class Main {
         perimetr2.draw();
         perimetr3.draw();
 
-        System.out.println("Нийт талбай: " + niitArea);
+        System.out.println("Niit talbay: " + niitArea);
 
-        System.out.println("Нийт Perimetr: " + niitPerimetr);
+        System.out.println("niit Perimetr: " + niitPerimetr);
     }
 }

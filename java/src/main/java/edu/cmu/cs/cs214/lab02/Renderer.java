@@ -14,7 +14,7 @@ public class Renderer {
         System.out.println("Shape printed\n" + "Its area is " + area);
     }
     public void Perimtr() {
-        double perimtr = shape.getArea();
+        double perimtr = shape.getPerimetr();
         System.out.println("Shape printed\n" + "Its perimetr is " + perimtr);
     }
 }
