@@ -15,8 +15,27 @@ public class Main {
         Renderer renderer2 = new Renderer(circle);
         Renderer renderer3 = new Renderer(square);
 
+        // Нийт талбайг тооцоолох
+        double niitArea = rectangle.getArea() + circle.getArea() + square.getArea();
+
+        // Дүрсүүдийг зурах
         renderer1.draw();
         renderer2.draw();
         renderer3.draw();
+        Renderer perimetr1 = new Renderer(rectangle);
+        Renderer perimetr2 = new Renderer(circle);
+        Renderer perimetr3 = new Renderer(square);
+
+        // Нийт талбайг тооцоолох
+        double niitPerimetr = rectangle.getPerimetr() + circle.getPerimetr() + square.getPerimetr();
+
+        // Дүрсүүдийг зурах
+        perimetr1.draw();
+        perimetr2.draw();
+        perimetr3.draw();
+
+        System.out.println("Нийт талбай: " + niitArea);
+
+        System.out.println("Нийт Perimetr: " + niitPerimetr);
     }
 }
